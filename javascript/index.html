@@ -33,7 +33,7 @@
       let minutes = [0, 1, 30, 60, 6 * 60, 23 * 60, 24 * 60]
       let dates = []
 
-      minutes.forEach((i) => dates.push(new Date(NOW - i)))
+      minutes.forEach((i) => dates.push(new Date(NOW - i * MS_PER_MINUTE)))
 
       dates.forEach((item) => {
         let el = document.createElement("div")

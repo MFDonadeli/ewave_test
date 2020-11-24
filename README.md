@@ -47,7 +47,10 @@ Folder content:
 
 # JavaScript
 
-Just run the files and get the results
+Just run the files and get the results. 
+
+Note: The description was not clear about how it's going to be the final result, so I formated in a way that I understand
+will compreheend most of the solution purposed by the challenge
 
 Folder content:
 

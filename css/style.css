@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto';
 }
 
-.header{
+.header--twocolumns-justified{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,24 +11,24 @@ body{
     background-color: #dddddd;
 }
 
-.header--title{
+.header__title{
     font-weight: bold;
     font-size: 12;
 }
 
-.header--lenght{
+.header__lenght{
     font-size: 12;
 }
 
-.header--ratings{
+.header__ratings{
     font-size: 12;   
 }
 
-.header--img_ratings {
+.header__img_ratings {
     width: 20px;    
 }
 
-.middle--button{
+.middle__button-imgoverlay{
     background-color:#ffffff;
     opacity: 0.8;
 	border-radius:28px;
@@ -41,13 +41,13 @@ body{
     text-decoration:none;
 
     position: absolute;
-    left: 12%;
+    left: 6%;
     top: 50%;
     
     margin-top: 100px; 
 }
 
-.middle--button:hover{
+.middle__button-imgoverlay:hover{
     opacity: 1;    
 }
 
@@ -56,6 +56,6 @@ body{
     background-color: #dddddd;
 }
 
-.footer--description{
+.footer__description{
     font-size: 12;
 }
