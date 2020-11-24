@@ -3,7 +3,7 @@ body{
     font-family: 'Roboto';
 }
 
-.header--twocolumns-justified{
+.div__box--twocolumns-justified{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -11,29 +11,25 @@ body{
     background-color: #dddddd;
 }
 
-.header__title{
+.div__description--bold{
     font-weight: bold;
     font-size: 12;
 }
 
-.header__lenght{
+.div__description{
     font-size: 12;
 }
 
-.header__ratings{
-    font-size: 12;   
-}
-
-.header__img_ratings {
+.div__img-verysmall {
     width: 20px;    
 }
 
-.middle--inline-relative{
+.div--inline-relative{
     display:inline-block;
     position:relative;
 }
 
-.middle__button-imgoverlay{
+.div__button-imgoverlay{
     background-color:#999999;
     opacity: 0.8;
 	border-radius:28px;
@@ -50,15 +46,11 @@ body{
     right:4em; 
 }
 
-.middle__button-imgoverlay:hover{
+.div__button-imgoverlay:hover{
     opacity: 1;    
 }
 
-.footer {
+.div__box {
     padding: 10px;
     background-color: #dddddd;
-}
-
-.footer__description{
-    font-size: 12;
 }
